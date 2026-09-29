@@ -14,7 +14,6 @@ function updateProductName(index,newName){
 
 }
 function removeLastProduct(products){
-    debugger
     products.pop();
 }
 logFirstProduct();

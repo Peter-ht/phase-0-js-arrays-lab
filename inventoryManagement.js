@@ -10,16 +10,16 @@ function addProduct(productName){
 function updateProductName(index,newName){
      debugger
     products[index]=newName;
-   
-
 }
+
 function removeLastProduct(products){
    return products.pop();
 }
+
 logFirstProduct();
 addProduct("Ipad");
 updateProductName(0,"Macbook");
-products.pop();
+removeLastProduct(products);
 console.log(products);
   
 

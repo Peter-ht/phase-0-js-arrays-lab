@@ -12,14 +12,14 @@ function updateProductName(index,newName){
     products[index]=newName;
 }
 
-function removeLastProduct(products){
-   return products.pop();
+function removeLastProduct(){
+    products.pop();
 }
 
 logFirstProduct();
 addProduct("Ipad");
 updateProductName(0,"Macbook");
-removeLastProduct(products);
+removeLastProduct();
 console.log(products);
   
 

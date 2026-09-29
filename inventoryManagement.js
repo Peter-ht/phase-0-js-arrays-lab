@@ -19,8 +19,7 @@ function removeLastProduct(products){
 logFirstProduct();
 addProduct("Ipad");
 updateProductName(0,"Macbook");
-console.log(products);
-console.log(products.pop())
+products.pop();
 console.log(products);
   
 
